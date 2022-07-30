@@ -1,7 +1,8 @@
 {
   "name": "api-project",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "task": "echo 'Doing a task...'"
   },
   "engines": {
     "node": ">=16"
@@ -13,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/EmanueleBraco97/api-project/issues"
   },
-  "homepage": "https://github.com/EmanueleBraco97/api-project#readme"
+  "homepage": "https://github.com/EmanueleBraco97/api-project#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
 }
